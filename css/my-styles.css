@@ -1,0 +1,419 @@
+* {
+	/* border: solid red 1px; */
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	/* max-height: 100px; */
+}
+
+.header__logo {
+	padding: 0;
+
+}
+
+.header__logo {
+	padding: 0;
+
+}
+
+.header__logo a img {
+	max-width: 320px;
+	;
+
+}
+
+.header__nav {
+	padding: 20px 0px;
+	height: 100%;
+	;
+}
+
+.hero {
+	padding: 40px 0px;
+}
+
+.hero__text {
+	color: #313131;
+	padding-top: 0px;
+}
+
+.hero__text h2 {
+	color: #313131;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.hero__text p {
+	color: #313131;
+	margin-bottom: 20px;
+}
+
+.hero__form h3 {
+	color: #313131;
+	font-size: 24px;
+	text-align: left;
+}
+
+.footer {
+	background: #054170;
+	padding: 12px 0px;
+	margin-top: auto;
+}
+
+.section-title.application h2,
+.section-title.application p {
+	text-align: left;
+}
+
+.spad {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.home__about__text .section-title {
+	margin-bottom: 20px;
+}
+
+.checkbox-container {
+	margin-bottom: 20px;
+}
+
+.button-attach-confirmation {
+	max-width: 100px;
+	margin: 4px 0px 20px 0px;
+	border-radius: 2px;
+	border: solid 1px #333;
+}
+
+.forgot-links {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.forgot-links a {
+	border: solid #054170 1px;
+	padding: 8px;
+	border-radius: 4px;
+	color: #054170;
+	width: 100%;
+	text-align: center;
+}
+
+.section-dashboard-btn {
+	margin-top: auto;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+}
+
+.section-dashboard-btn a {
+	border: solid #054170 1px;
+	padding: 8px;
+	border-radius: 4px;
+	color: #054170;
+	min-width: 160px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+.logon-button {
+	font-size: 15px;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 14px 30px 12px;
+	background: #adbc27;
+	border: none;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.section-title h2 {
+	font-size: 32px;
+}
+
+.services__item {
+	border: 1px solid #dcdcdc;
+	height: 100%;
+	margin-bottom: 0px;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.services__item__text {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background: #fff;
+}
+
+.services__item__text h4 {
+	font-size: 20px;
+}
+
+.services__item .services__item__text {
+	border: none;
+}
+
+.services__item:hover .services__item__text {
+	border: none;
+}
+
+.services__item__text p {
+	margin-bottom: 12px;
+	/* font-size: 14px; */
+}
+
+.services__item:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.services__item__text a:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: transparent;
+	content: "";
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+	opacity: 0;
+}
+
+.section-title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.footer__copyright__links li a {
+	color: #e8e8e8;
+}
+
+.footer__copyright__text p {
+	color: #e8e8e8;
+}
+
+.footer__copyright {
+	margin-top: 0px;
+}
+
+.header__menu ul li {
+	margin-right: 25px;
+}
+
+.additional-activities-section {
+	background-color: #f3f3f8;
+}
+
+.description-list {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.description-list h6 {
+	font-weight: 700;
+}
+
+.description-list>div {
+	width: 200px;
+}
+
+.dashboard-alerts {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.dashboard-tiles {
+	border: solid #dcdcdc 1px;
+	padding: 20px;
+	border-radius: 2px;
+}
+
+.dashboard-tiles .nice-select {
+	margin-right: 12px;
+	min-width: 260px;
+}
+
+.tile-btn {
+	margin-top: auto;
+	display: flex;
+	gap: 10px;
+}
+
+.tile-btn a {
+	border: solid #054170 1px;
+	padding: 8px;
+	border-radius: 4px;
+	color: #054170;
+	text-align: center;
+	font-size: 14px;
+	min-width: 150px;
+	text-transform: uppercase;
+}
+
+.license-info {
+	background: #fff;
+	padding: 20px;
+	border-radius: 2px;
+	border: solid 1px #dcdcdc;
+}
+
+.license-info h2 {
+	font-size: 28px;
+}
+
+
+.license-info a {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: #054170;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	margin-top: 12px;
+	min-width: 200px;
+	text-align: center;
+}
+
+.header__top__language {
+	padding: 12px;
+}
+
+
+#preloder {
+	background: #f3f3f8;
+}
+
+.card-section {
+	border: solid #dcdcdc 1px;
+	border-radius: 2px;
+}
+
+.card-section-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+
+.card-section .card-section-header {
+	border-bottom: solid #dcdcdc 1px;
+	border-radius: 2px;
+	padding: 16px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-section .card-section-header .actions button.card-section-btn {
+	border: solid #054170 1px;
+	padding: 8px 16px;
+	border-radius: 4px;
+	color: #054170;
+	text-align: center;
+	font-size: 14px;
+	min-width: 90px;
+	text-transform: uppercase;
+	background: transparent;
+}
+
+
+.card-section .card-section-header .title h4 {
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+
+.card-section .card-section-content {
+	padding: 16px 20px;
+}
+
+
+.button-primary-color {
+	background-color: #054170 !important;
+	color: white !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.canvas__open {
+		top: 15px;
+	}
+
+	.offcanvas-menu-wrapper {
+		width: 400px;
+	}
+
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		font-size: 18px;
+	}
+
+	.hero__text {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	.header__top {
+		display: flex;
+	}
+
+	.spad {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.header__top__language {
+		float: none;
+	}
+
+	.header__top__language .fa.fa-angle-down {
+		float: right;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.canvas__open {
+		top: 15px;
+	}
+
+	.hero__text {
+		padding-bottom: 0px;
+	}
+
+	.header__top {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.license-info {
+		margin-top: 20px;
+	}
+}
