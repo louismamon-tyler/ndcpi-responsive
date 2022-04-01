@@ -96,6 +96,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	gap: 10px;
+	text-transform: uppercase;
 }
 
 .forgot-links a {
