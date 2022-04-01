@@ -37,6 +37,158 @@ let btn_next_application = document.querySelector(".button-next-application");
 let btn_back_application = document.querySelector(".button-back-application");
 let btn_back_summary = document.querySelector(".button-back-summary");
 
+let tab_modal = document.querySelector(".tab-navigation-container-modal");
+let tab_modal_close_btn = document.querySelector(".tab-mobile-close-btn");
+let tab_modal_tabs = document.querySelector(".tab-navigation-container-modal .tab");
+
+let tab_step_1 = document.querySelector(".step-tab-1");
+let tab_step_2 = document.querySelector(".step-tab-2");
+let tab_step_3 = document.querySelector(".step-tab-3");
+let tab_step_4 = document.querySelector(".step-tab-4");
+let tab_step_5 = document.querySelector(".step-tab-5");
+let tab_step_6 = document.querySelector(".step-tab-6");
+let tab_step_7 = document.querySelector(".step-tab-7");
+
+
+let tab_mdl_btn_1 = document.querySelector(".tab_mdl_btn_1");
+let tab_mdl_btn_2 = document.querySelector(".tab_mdl_btn_2");
+let tab_mdl_btn_3 = document.querySelector(".tab_mdl_btn_3");
+let tab_mdl_btn_4 = document.querySelector(".tab_mdl_btn_4");
+let tab_mdl_btn_5 = document.querySelector(".tab_mdl_btn_5");
+let tab_mdl_btn_6 = document.querySelector(".tab_mdl_btn_6");
+let tab_mdl_btn_7 = document.querySelector(".tab_mdl_btn_7");
+
+
+tab_mdl_btn_1.addEventListener("click", function () {
+    tab_nav_intro.click();
+});
+
+tab_mdl_btn_2.addEventListener("click", function () {
+    tab_nav_personal.click();
+});
+
+tab_mdl_btn_3.addEventListener("click", function () {
+    tab_nav_contact.click();
+});
+
+tab_mdl_btn_4.addEventListener("click", function () {
+    tab_nav_work.click();
+});
+
+tab_mdl_btn_5.addEventListener("click", function () {
+    tab_nav_statement.click();
+});
+
+tab_mdl_btn_6.addEventListener("click", function () {
+    tab_nav_application.click();
+});
+
+tab_mdl_btn_7.addEventListener("click", function () {
+    tab_nav_summary.click();
+});
+
+
+
+tab_modal_tabs.addEventListener("click", function () {
+    tab_modal.style.display = "none";
+});
+
+tab_step_1.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_1.classList.add("active");
+
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_2.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_2.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_3.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_3.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_4.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_4.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_5.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_5.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_6.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_6.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_7.classList.remove("active");
+});
+
+tab_step_7.addEventListener("click", function () {
+    tab_modal.style.display = "flex";
+
+    tab_mdl_btn_7.classList.add("active");
+
+    tab_mdl_btn_1.classList.remove("active");
+    tab_mdl_btn_2.classList.remove("active");
+    tab_mdl_btn_3.classList.remove("active");
+    tab_mdl_btn_4.classList.remove("active");
+    tab_mdl_btn_5.classList.remove("active");
+    tab_mdl_btn_6.classList.remove("active");
+});
+
+
+tab_modal_close_btn.addEventListener("click", function () {
+    tab_modal.style.display = "none";
+});
+
 btn_next_intro.addEventListener("click", function () {
     tab_nav_personal.click();
 });

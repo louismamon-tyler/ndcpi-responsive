@@ -86,7 +86,7 @@
         <div class="header__top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-md-8 col-sm-4">
+                    <div class="col-lg-8 col-md-8">
                         <ul class="header__top__widget">
                             <!-- <li><i class="fa fa-map-marker"></i> 96 Ernser Vista
                                 Suite 437, NY, US</li>
@@ -94,10 +94,10 @@
                             </li>
                             <li><i class="fa fa-envelope"></i> Info@colorlib.com
                             </li> -->
-                            <li>Hello John Doe</li>
+                            <li>Welcome John Doe</li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="header__top__language">
                             <img src="img/profile.png" alt="">
                             <span>Administrator</span>
@@ -185,37 +185,63 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+
                     <div class="my-own-tabs">
-                        <div class="tab">
-                            <button class="tablinks tab-nav-intro"
-                                onclick="openCity(event, 'intro_tabs')"
-                                id="defaultOpen">Introduction</button>
-                            <button class="tablinks tab-nav-personal"
-                                onclick="openCity(event, 'personal_info_tabs')">Name
-                                and
-                                Personal
-                                Details</button>
-                            <button class="tablinks tab-nav-contact"
-                                onclick="openCity(event, 'contact_info_tabs')">Contact
-                                Information</button>
-                            <button class="tablinks tab-nav-work-authorize"
-                                onclick="openCity(event, 'work_autho_tabs')">Work
-                                Authorization</button>
-                            <button class="tablinks tab-nav-statement"
-                                onclick="openCity(event, 'statement_tabs')">Statement
-                                of
-                                Applicant</button>
-                            <button class="tablinks tab-nav-application"
-                                onclick="openCity(event, 'attachements_tabs')">Application
-                                Attachments</button>
-                            <button class="tablinks tab-nav-summary"
-                                onclick="openCity(event, 'summary_tabs')">Summary
-                                (pre-fees)</button>
+                        <div class="tab-navigation-container">
+                            <!-- <div class="tab-navigation-header">
+                                <div class="tab-mobile-nav-header">
+                                    <h4>Steps </h4>
+                                </div>
+                                <button class="tab-mobile-close-btn">
+                                    X
+                                </button>
+                            </div> -->
+                            <div class="tab">
+                                <button class="tablinks tab-nav-intro"
+                                    onclick="openCity(event, 'intro_tabs')"
+                                    id="defaultOpen">Introduction</button>
+                                <button class="tablinks tab-nav-personal"
+                                    onclick="openCity(event, 'personal_info_tabs')">Name
+                                    and
+                                    Personal
+                                    Details</button>
+                                <button class="tablinks tab-nav-contact"
+                                    onclick="openCity(event, 'contact_info_tabs')">Contact
+                                    Information</button>
+                                <button class="tablinks tab-nav-work-authorize"
+                                    onclick="openCity(event, 'work_autho_tabs')">Work
+                                    Authorization</button>
+                                <button class="tablinks tab-nav-statement"
+                                    onclick="openCity(event, 'statement_tabs')">Statement
+                                    of
+                                    Applicant</button>
+                                <button class="tablinks tab-nav-application"
+                                    onclick="openCity(event, 'attachements_tabs')">Application
+                                    Attachments</button>
+                                <button class="tablinks tab-nav-summary"
+                                    onclick="openCity(event, 'summary_tabs')">Summary
+                                    (pre-fees)</button>
+                            </div>
                         </div>
+
 
                         <div class="tab-content-container">
                             <div id="intro_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Introduction</h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Introduction</h3>
+                                    <div class="tabcontent-steps step-tab-1">
+                                        <span> Step 1 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
                                 <p>This application has been created by your
                                     employing school system in order to extend
                                     your North Carolina Standard Professional 1
@@ -271,22 +297,37 @@
                                 <div class="tab-container-btn">
                                     <button
                                         class="tab-navigate button-next-intro button-primary-color">Next</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
+
                                 </div>
                             </div>
 
                             <div id="personal_info_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Name and Personal Details</h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Name and Personal Details
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-2">
+                                        <span> Step 2 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <p>Please note: The license will reflect the
                                     First, Middle and Last names as entered on
                                     this page.
 
                                 </p>
                                 <div class="description-list">
-                                    <div>
-                                        <h6>Title</h6>
-                                        <p>Manager</p>
-                                    </div>
 
                                     <div>
                                         <h6>First Name </h6>
@@ -295,7 +336,7 @@
 
                                     <div>
                                         <h6>Middle Name </h6>
-                                        <p>Mango</p>
+                                        <p></p>
                                     </div>
 
                                     <div>
@@ -306,11 +347,16 @@
                                     </div>
 
                                     <div>
+                                        <h6>Title</h6>
+                                        <p>Manager</p>
+                                    </div>
+
+                                    <div>
                                         <h6>Suffix </h6>
                                         <p></p>
                                     </div>
                                     <div>
-                                        <h6>Social Security Numbe </h6>
+                                        <h6>Social Security Number </h6>
                                         <p>350780512
                                         </p>
                                     </div>
@@ -329,13 +375,30 @@
                                         class="tab-navigate button-next-personal button-primary-color">Next</button>
                                     <button
                                         class="tab-navigate button-back-personal">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
 
                             <div id="contact_info_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Contact Information
-                                </h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Contact Information
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-3">
+                                        <span> Step 3 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <p>Provide current address and contact
                                     information. Use a permanent personal email
                                     address.
@@ -348,8 +411,8 @@
                                         <label for="snum"
                                             class="form-label">Street
                                             Number</label>
-                                        <input type="email" class="form-control"
-                                            id="snum"
+                                        <input type="num" class="form-control"
+                                            id="snum" value="034"
                                             aria-describedby="emailHelp">
                                         <!-- <div id="emailHelp" class="form-text">
                                             We'll never share your email with
@@ -359,13 +422,13 @@
                                         <label for="add"
                                             class="form-label">Address</label>
                                         <input type="text" class="form-control"
-                                            id="add">
+                                            value="Alpha Mill Lane" id="add">
                                     </div>
                                     <div class="mb-3 col-md-5">
                                         <label for="cityid"
                                             class="form-label">City</label>
                                         <input type="text" class="form-control"
-                                            id="cityid">
+                                            value="FAYETTEVILLE" id="cityid">
                                     </div>
                                     <div class="mb-3 col-md-5">
                                         <label for="stateid"
@@ -373,16 +436,21 @@
                                         <select
                                             class="form-select contact-info-select"
                                             aria-label="Default select example">
-                                            <option selected>Select State
                                             <option value="AL">Alabama</option>
                                             <option value="AK">Alaska</option>
                                             <option value="AZ">Arizona</option>
+                                            <option value="AZ"
+                                                selected="selected">North
+                                                Carolina
+                                            </option>
+                                            <option value="AZ">Michigan
+                                            </option>
                                         </select>
                                     </div>
                                     <div class="mb-3 col-md-2">
                                         <label for="zipid"
                                             class="form-label">Zip Code</label>
-                                        <input type="number"
+                                        <input type="number" value="28303"
                                             class="form-control" id="zipid">
                                     </div>
                                     <div class="mb-3 col-md-12">
@@ -391,8 +459,6 @@
                                         <select
                                             class="form-select contact-info-select"
                                             aria-label="Default select example">
-                                            <option selected>Select Country
-                                            </option>
                                             <option value="Afganistan">
                                                 Afghanistan</option>
                                             <option value="Albania">Albania
@@ -404,6 +470,12 @@
                                             <option value="Andorra">Andorra
                                             </option>
                                             <option value="Angola">Angola
+                                            </option>
+                                            <option value="Angola">Philippines
+                                            </option>
+                                            <option value="Angola"
+                                                selected="selected">United
+                                                States
                                             </option>
                                         </select>
                                     </div>
@@ -420,6 +492,9 @@
                                             <option value="bladen">Bladen
                                             </option>
                                             <option value="cataw">Catawba
+                                            </option>
+                                            <option value="cataw"
+                                                selected="selected">Cumberland
                                             </option>
                                         </select>
                                     </div>
@@ -462,13 +537,30 @@
                                         class="tab-navigate button-next-contact button-primary-color">Next</button>
                                     <button
                                         class="tab-navigate button-back-contact">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
 
                             <div id="work_autho_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Work Authorization
-                                </h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Work Authorization
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-4">
+                                        <span> Step 4 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <p>Provide your Work Authorization information.
                                     If you are not a US Citizen you must attach
                                     proof of valid Work Authorization to your
@@ -515,13 +607,30 @@
                                         class="tab-navigate button-next-work-authorize button-primary-color">Next</button>
                                     <button
                                         class="tab-navigate button-back-work-authorize">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
 
                             <div id="statement_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Statement of Applicant
-                                </h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Statement of Applicant
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-5">
+                                        <span> Step 5 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <h4>Statement of Applicant
                                 </h4>
                                 <p>You must complete both of the below Statement
@@ -628,13 +737,30 @@
                                         class="tab-navigate button-next-statement button-primary-color">Next</button>
                                     <button
                                         class="tab-navigate button-back-statement">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
 
                             <div id="attachements_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Application Attachments
-                                </h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Application Attachments
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-6">
+                                        <span> Step 6 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <p>Select the Attachment Type that you want to
                                     add from the Attachment List. </p>
 
@@ -708,13 +834,30 @@
                                         class="tab-navigate button-next-application button-primary-color">Next</button>
                                     <button
                                         class="tab-navigate button-back-application">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
 
                             <div id="summary_tabs" class="tabcontent">
-                                <h3>Extend SP1 - Application Summary
-                                </h3>
+                                <div class="tabcontent-header">
+                                    <h3>Extend SP1 - Application Summary
+                                    </h3>
+                                    <div class="tabcontent-steps step-tab-7">
+                                        <span> Step 7 of 7</span> <i
+                                            class="bi bi-chevron-down"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="16" height="16"
+                                                fill="currentColor"
+                                                class="bi bi-chevron-down"
+                                                viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                            </svg></i>
+                                    </div>
+                                </div>
+
                                 <p>Review the data and press "Next" once
                                     you are ready to submit.
 
@@ -912,7 +1055,9 @@
                                         class="tab-navigate button-primary-color">Submit</button>
                                     <button
                                         class="tab-navigate button-back-summary">Back</button>
-                                    <button>Cancel</button>
+                                    <a href="dashboard.html">
+                                        <button>Cancel</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -946,6 +1091,50 @@
         </div>
     </footer>
     <!-- Footer Section End -->
+
+    <!-- Tab Mobile Modal -->
+    <div class="tab-navigation-container-modal">
+        <div class="tab-navigation-header">
+            <div class="tab-mobile-nav-header">
+                <h4>Steps </h4>
+            </div>
+            <button type="button" class="btn-close tab-mobile-close-btn"
+                aria-label="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+        <div class="tab">
+            <button class="tab_mdl_btn_1 tablinks tab-nav-intro"
+                onclick="openCity(event, 'intro_tabs')"
+                id="defaultOpen">Introduction</button>
+            <button class="tab_mdl_btn_2 tablinks tab-nav-personal"
+                onclick="openCity(event, 'personal_info_tabs')">Name
+                and
+                Personal
+                Details</button>
+            <button class="tab_mdl_btn_3 tablinks tab-nav-contact active"
+                onclick="openCity(event, 'contact_info_tabs')">Contact
+                Information</button>
+            <button class="tab_mdl_btn_4 tablinks tab-nav-work-authorize"
+                onclick="openCity(event, 'work_autho_tabs')">Work
+                Authorization</button>
+            <button class="tab_mdl_btn_5 tablinks tab-nav-statement"
+                onclick="openCity(event, 'statement_tabs')">Statement
+                of
+                Applicant</button>
+            <button class="tab_mdl_btn_6 tablinks tab-nav-application"
+                onclick="openCity(event, 'attachements_tabs')">Application
+                Attachments</button>
+            <button class="tab_mdl_btn_7 tablinks tab-nav-summary"
+                onclick="openCity(event, 'summary_tabs')">Summary
+                (pre-fees)</button>
+        </div>
+    </div>
+
 
     <!-- Search Begin -->
     <div class="search-model">

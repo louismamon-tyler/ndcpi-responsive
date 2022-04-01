@@ -248,7 +248,7 @@ header {
 
 .dashboard-tiles {
 	border: solid #dcdcdc 1px;
-	padding: 20px;
+	padding: 16px;
 	border-radius: 2px;
 }
 
@@ -276,15 +276,38 @@ header {
 
 .license-info {
 	background: #fff;
-	padding: 20px;
 	border-radius: 2px;
 	border: solid 1px #dcdcdc;
+	padding: 0px;
 }
 
 .license-info h2 {
-	font-size: 28px;
+	font-size: 22px;
 }
 
+.license-info-content {
+	padding: 20px;
+}
+
+.license-info-header {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 1px #dcdcdc;
+	padding: 12px 20px;
+	align-items: center;
+}
+
+.license-info-header button {
+	border: 1px solid rgb(5, 65, 112);
+	padding: 8px;
+	border-radius: 4px;
+	color: rgb(5, 65, 112);
+	text-align: center;
+	font-size: 14px;
+	min-width: 150px;
+	text-transform: uppercase;
+	background: transparent;
+}
 
 .license-info a {
 	display: inline-block;
@@ -327,6 +350,8 @@ header {
 	border-radius: 2px;
 	padding: 16px 20px;
 	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -360,6 +385,23 @@ header {
 	color: white !important;
 }
 
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.justify-content-spacebetween {
+	justify-content: space-between;
+}
+
+
 
 @media only screen and (max-width: 767px) {
 	.canvas__open {
@@ -368,6 +410,7 @@ header {
 
 	.offcanvas-menu-wrapper {
 		width: 400px;
+		left: -700px;
 	}
 
 	.slicknav_nav .slicknav_row,

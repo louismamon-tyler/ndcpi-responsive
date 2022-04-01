@@ -13,6 +13,10 @@
 	min-width: 280px;
 }
 
+.tab-navigation-container {
+	background-color: #f3f3f8;
+}
+
 /* Style the buttons inside the tab */
 .tab button {
 	display: block;
@@ -49,7 +53,6 @@
 }
 
 .tabcontent h3 {
-	margin-bottom: 20px;
 	font-size: 28px;
 }
 
@@ -113,9 +116,74 @@
 	border-radius: 0.25rem;
 }
 
+.tabcontent-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.tabcontent-steps {
+	font-size: 16px;
+	display: none;
+}
+
+.tab-mobile-close-btn {
+	padding: 0px;
+	border: none;
+	background: transparent;
+}
+
+.tabcontent-steps:hover {
+	cursor: pointer;
+}
+
+.tab-navigation-container-modal {
+	display: none;
+}
+
 
 @media only screen and (max-width: 767px) {
-	.tab {
+	.tab-navigation-container-modal {
 		display: none;
+		flex-direction: column;
+		position: fixed;
+		background: #f3f3f8;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		overflow: hidden;
+	}
+
+	.tab-navigation-container-modal .tab-navigation-header {
+		display: flex;
+		gap: 20px;
+		justify-content: space-between;
+		padding: 20px;
+		border-bottom: solid 1px #ccc;
+		background: #fff;
+	}
+
+	.tab-navigation-container-modal .tab {
+		width: 100%;
+		max-width: 100%;
+		;
+	}
+
+	.tab-navigation-container {
+		display: none;
+	}
+
+	.tabcontent-steps {
+		font-size: 16px;
+		display: block;
+		color: #0006cc;
+		font-weight: bold;
 	}
 }
